@@ -1,0 +1,31 @@
+.logbg {
+  background-color: rgba(0, 0, 0, 0.532);
+  background-image: url(/background.avif);
+  background-attachment: fixed;
+  background-blend-mode: color-burn;
+}
+.glassEffect {
+  background: rgba(167, 127, 74, 0.381);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(223, 146, 47, 0.3);
+}
+.btnSub {
+  border: none;
+  outline: none;
+  background-color: #da6d24;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #ca5004;
+}
+
+.btnSub:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+}
